@@ -10,14 +10,20 @@
         <meta charset="utf-8" />
         <meta name="description" content="this is my website" />
         <style>
+            :root {
+                --main-color: #24b51f;
+            }
             body {
                 height: 1000vh;
                 margin: 20px;
             }
             p::selection {
-                background-color: yellowgreen;
+                background-color: var(--main-color);
                 color: white;
                 font-size: 50px;
+            }
+            a {
+                color: var(--main-color);
             }
         </style>
     </head>
@@ -25,5 +31,8 @@
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui recusandae sint labore tempore illum laudantium facilis, modi minus aperiam tempora at velit sapiente? Laboriosam distinctio rem iste voluptas quasi deleniti!
         </p>
+        <div>
+            <a href="#">website</a>
+        </div>
     </body>
 </html>
