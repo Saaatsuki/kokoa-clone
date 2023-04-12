@@ -1,0 +1,12 @@
+/* status-bar */
+.status-bar {
+    display: flex;
+    background-color: #ffce33;
+    padding: 30px 10px 50px 10px;
+    justify-content: space-between;
+}
+
+.status-bar span {
+    font-size: 23px;
+    font-weight: 700;
+}

@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "search-bar.css";
+@import "bookOfTheDay.css";
+@import "topAdventures.css";
+@import "popularAuthors.css";
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+body {
+    width: 490px;
+    height: 1000px;
+    overflow-x: hidden;
+}

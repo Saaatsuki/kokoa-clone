@@ -1,0 +1,33 @@
+/* topAdventures */
+
+.topAdventures {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.topAdventures__title {
+    margin-bottom: 20px;
+}
+
+.topAdventures__book {
+    display: flex;
+
+}
+
+.topAdventures__book>div {
+    margin-right: 35px;
+}
+
+.topAdventures__book img {
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+.topAdventures__book>div>div {
+    display: flex;
+    height: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 8px;
+}
