@@ -1,4 +1,6 @@
-
+body {
+    width: 1000px;
+}
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -306,9 +308,10 @@ body > div {
 }
 
 .second-screen__control-button > div > i {
+    margin-left: 5px;
     color: white;
 }
 
-.second-screen__control-button > i:first-child, i:last-child {
+.second-screen__control-button__repeat, .second-screen__control-button__shuffle {
     color: rgba(0, 0, 0, 0.2);
 }
